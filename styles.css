@@ -1,0 +1,36 @@
+/* Imported Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    background-color: rgb(255, 255, 255);
+    background: url("images/background.jpg");
+  }
+
+  .navbar {
+    background-color: black;
+  }
+
+  #logo {
+    width: 350px;
+    height: 100px;
+  }
+
+  #me {
+    image-orientation: from-image;
+    border-radius: 20%;
+    border: 3px solid black;
+  }
+
+  #basic-info {
+    color: rgb(100, 100, 100);
+    font-size: 2em;
+    font-family: Roboto;
+  }
+
+  #contact-info {
+    font-family: Roboto;
+    font-size: 2em;
+    font-weight: 300;
+  }
