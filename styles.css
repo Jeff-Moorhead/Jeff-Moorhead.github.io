@@ -14,8 +14,9 @@ body {
   }
 
   #logo {
-    width: 350px;
-    height: 100px;
+    width: 400px;
+    height: 125px;
+    float: left;
   }
 
   #me {
@@ -26,7 +27,7 @@ body {
 
   #basic-info {
     color: rgb(25, 25, 25);
-    font-size: 2em;
+    font-size: 1em;
     font-family: Roboto;
   }
 
