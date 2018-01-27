@@ -14,26 +14,41 @@ body {
   }
 
   #logo {
-    width: 400px;
-    height: 125px;
-    float: left;
+    width: 300px;
+    height: 240;
+    display: block;
   }
 
   #me {
     image-orientation: from-image;
-    border-radius: 20%;
     border: 3px solid black;
+    margin: 25px;
   }
 
   #basic-info {
     color: rgb(25, 25, 25);
-    font-size: 1em;
+    margin: 25px;
+    padding: 10px;
+    font-size: 1.25em;
     font-family: Roboto;
   }
 
-  #contact-info {
-    font-family: Roboto;
+  #contacts {
     font-size: 2em;
-    font-weight: 300;
+    text-align: center;
+  }
+
+  #contact1 {
+    margin-right: 50px;
+    text-align: right;
+  }
+
+  #contact2 {
+    text-align: center;
+  }
+
+  #contact3 {
+    margin-left: 50px;
+    text-align: left;
   }
   
