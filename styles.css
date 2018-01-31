@@ -34,6 +34,7 @@ body {
   .basic-info {
     color: rgb(25, 25, 25);
     margin: 25px;
+    margin-bottom: 15px;
     padding: 10px;
     font-size: 1.25em;
     font-family: Roboto;
@@ -54,7 +55,7 @@ body {
   #me {
     image-orientation: from-image;
     border: 3px solid black;
-    margin: 25px;
+    margin: 15px;
   }
 
   #contacts {
