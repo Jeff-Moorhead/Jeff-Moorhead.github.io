@@ -9,7 +9,10 @@ body {
     background-size: cover;
   }
 
-  h4 {
+  h1 {
+    text-align: center;
+  }
+  h1, h2, h3, h4 {
     font-family: Roboto;
     font-size: 2em;
     margin-left: 25px;
@@ -26,7 +29,15 @@ body {
     margin-bottom: 10px;
     padding: 25px;
     background-color: rgb(240, 236, 236);
-    }
+  }
+
+  .basic-info {
+    color: rgb(25, 25, 25);
+    margin: 25px;
+    padding: 10px;
+    font-size: 1.25em;
+    font-family: Roboto;
+  }
 
   #logo {
     width: 300px;
@@ -38,14 +49,6 @@ body {
     image-orientation: from-image;
     border: 3px solid black;
     margin: 25px;
-  }
-
-  #basic-info {
-    color: rgb(25, 25, 25);
-    margin: 25px;
-    padding: 10px;
-    font-size: 1.25em;
-    font-family: Roboto;
   }
 
   #contacts {
