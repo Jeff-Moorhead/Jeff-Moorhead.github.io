@@ -20,6 +20,11 @@ body {
     padding-top: 25px;
   }
 
+  figcaption {
+    font-family: Roboto;
+    font-size: 1em;
+  }
+
   .navbar {
     background-color: black;
   }
@@ -38,6 +43,12 @@ body {
     padding: 10px;
     font-size: 1.25em;
     font-family: Roboto;
+  }
+
+  .project-thumbnail {
+    width: 300px;
+    height: 175px;
+    margin: 15px;
   }
 
   #summary {
