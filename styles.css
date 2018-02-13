@@ -69,6 +69,12 @@ body {
     margin: 15px;
   }
 
+  .card .card-block {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
   #summary {
     text-align: center;
     font-family: Roboto;
@@ -91,6 +97,7 @@ body {
   #contacts {
     font-size: 1em;
     text-align: center;
+    margin-top: 15px;
   }
 
   #contact1 {
