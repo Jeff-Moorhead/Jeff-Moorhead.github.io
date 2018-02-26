@@ -21,6 +21,11 @@ body {
     padding-top: 25px;
   }
 
+  h6 {
+    font-size: 1.5em !important;
+    margin-top: 10px !important;
+  }
+
   a {
     font-family: Roboto;
     font-size: 2em;
@@ -77,11 +82,12 @@ body {
   }
 
   .card-block {
-    height: 250px;
+    height: 200px;
+    text-align: center;
   }
 
-  .card-text, .card-title {
-    text-align: center;
+  .card-text {
+    padding: 10px !important;
   }
 
   #summary {
