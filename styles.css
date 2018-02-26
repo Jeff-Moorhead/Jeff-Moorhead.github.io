@@ -69,9 +69,18 @@ body {
     margin: 15px;
   }
 
-  .card .card-block {
+  .card {
     margin-top: 10px;
-    padding: 10px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  .card-block {
+    height: 250px;
+  }
+
+  .card-text, .card-title {
     text-align: center;
   }
 
