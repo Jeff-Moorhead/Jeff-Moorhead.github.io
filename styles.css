@@ -56,11 +56,10 @@ body {
 
   .well {
     margin-top: 10px;
-    margin-bottom: 10px;
     padding: 0px;
     padding-top: 10px;
     padding-bottom: 25px;
-    background-color: rgb(240, 236, 236);
+    background-color: rgb(235, 236, 236);
   }
 
   .basic-info {
@@ -89,6 +88,7 @@ body {
   .card-block {
     height: 200px;
     text-align: center;
+    background-color: rgb(250, 250, 250);
   }
 
   .card-text {
@@ -144,5 +144,11 @@ body {
     text-align: left;
     border: 2px solid black;
     border-radius: 100%;
+  }
+
+  #contact-well {
+    background-color: #bbbbbb;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
   }
   
