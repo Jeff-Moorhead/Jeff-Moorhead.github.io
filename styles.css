@@ -32,6 +32,16 @@ body {
     font-family: Roboto;
     font-size: 2em;
     color: white !important;
+    outline: 0;
+  }
+
+  a.go-to:hover {
+    text-decoration: underline !important;
+    
+  }
+
+  a:hover {
+    text-decoration: none !important;
   }
 
   figcaption {
