@@ -27,13 +27,13 @@
       </div>
       <ul class="navbar-nav">
         <li class="active">
-          <a href="#about-me">About me</a>
+          <a class="go-to" href="#about-me">About me</a>
         </li>
         <li class="active">
-          <a href="#projects">Projects</a>
+          <a class="go-to" href="#projects">Projects</a>
         </li>
         <li class="active">
-          <a href="#contacts">Contact me</a>
+          <a class="go-to" href="#contacts">Contact me</a>
         </li>
       </ul>
     </div>
@@ -133,6 +133,14 @@
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+  <script>
+    $(document).ready(function() {
+      $("a").hover(function() {
+        $("a").animate({fontSize: "3em"});
+      });
+    });
+  </script>
 </body>
 
 </html>
