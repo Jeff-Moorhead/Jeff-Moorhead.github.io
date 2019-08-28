@@ -35,6 +35,12 @@ body {
     outline: 0;
   }
 
+  #github-link {
+    color: rgb(38, 12, 184) !important;
+    font-size: 1em !important;
+    font-family: Roboto !important;
+  }
+
   a.go-to:hover {
     text-decoration: underline !important;
   }
